@@ -14,22 +14,26 @@ import Autoplay from "embla-carousel-autoplay";
 function CarouselItem1() {
   return (
     <CarouselItem className="flex flex-col gap-24 lg:gap-32 xl:flex-row items-center justify-center">
-      <div className="space-y-4">
+      <div>
         <h1 className="text-7xl font-semibold text-primary-dgrey dark:text-foreground/90">
           Lessons and insights
           <br />
           <span className="text-primary-brand">from 8 years</span>
         </h1>
-        <p className="text-primary-grey dark:text-foreground/70">
+        <p className="text-primary-grey dark:text-foreground/70 mt-6">
           Where to grow your business as a photographer: site or social media?
         </p>
-        <Button className="bg-primary-brand h-10 hover:bg-primary-brand/80 dark:text-foreground">
+
+        <Button
+          size="lg"
+          className="bg-primary-brand h-12 hover:bg-primary-brand/80 mt-8 text-lg font-normal dark:text-foreground"
+        >
           Register
         </Button>
       </div>
       <div>
         <Image
-          src="/illustration-1.svg"
+          src="/illustration-1.png"
           alt="Illustration"
           width={391}
           height={407}

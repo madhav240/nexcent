@@ -93,7 +93,7 @@ export default function Navbar() {
 
       {/* mobile-navbar */}
       <div className="flex xl:hidden  justify-center items-center relative h-20 bg-primary-silver dark:bg-slate-900">
-        <div className="absolute left-5">
+        <div className="absolute left-3 sm:left-5">
           <Image
             src="/nexcent-logo.svg"
             alt="Nexcent Logo"
@@ -111,7 +111,7 @@ export default function Navbar() {
             className="hidden dark:block"
           />
         </div>
-        <div className="absolute right-6 flex gap-x-12 items-center justify-center">
+        <div className="absolute right-4 sm:right-6 flex gap-x-12 items-center justify-center">
           <span className="mt-2 ">
             <ToggleThemeButton />
           </span>
