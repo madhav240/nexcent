@@ -456,7 +456,7 @@ export default function Home() {
               />
 
               <div className="absolute -bottom-16 mx-6 p-4 rounded-xl bg-primary-silver dark:bg-slate-900 shadow-xl flex flex-col items-center gap-4">
-                <h3 className="text-primary-grey text-xl text-center font-bold text-foreground/80">
+                <h3 className="text-primary-grey text-xl text-center font-bold dark:text-foreground/80">
                   Creating Streamlined Safeguarding Processes with OneRen
                 </h3>
                 <a
