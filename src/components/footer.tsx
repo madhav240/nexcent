@@ -113,11 +113,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div
-          className="grid grid-cols-2 xl:grid-cols-3 gap-y-6"
-
-          // className="flex flex-wrap gap-24 sm:gap-16 xl:gap-24"
-        >
+        <div className="grid grid-cols-2 xl:grid-cols-3 gap-y-6">
           <div>
             <h3 className="text-white text-xl font-semibold">Company</h3>
             <div className="mt-4 flex flex-col gap-2.5">
