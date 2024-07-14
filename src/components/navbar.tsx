@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import useThemeStore from "@/lib/themeStore";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -45,7 +44,7 @@ export default function Navbar() {
   return (
     <>
       <div className="justify-center items-center relative h-20 hidden xl:flex bg-primary-silver dark:bg-slate-900">
-        <div className="absolute left-28">
+        <div className="absolute left-16">
           <Image
             src="/nexcent-logo.svg"
             alt="Nexcent Logo"
